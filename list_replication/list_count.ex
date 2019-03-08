@@ -8,11 +8,6 @@ defmodule Solution do
     end
 
   def main(coll) do
-    # coll = Enum.map((String.split(IO.read(:string), "\n")), &(String.to_integer(&1)))
-      # list
-      # |> String.split("\n")
-      # |> Enum.map(&(String.to_integer(&1)))
-      # |> work(String.to_integer(String.trim(mult, "\n")))
     work(coll)
   end
 
@@ -27,5 +22,5 @@ defmodule Solution do
   end
 end
 
-  # Solution.input |> Solution.main
+Solution.input |> Solution.main
 
